@@ -19,16 +19,15 @@
 
 <body>
     <a-scene vr-mode-ui="enabled: false" embedded
-        arjs="sourceType: webcam; debugUIEnabled: false; sourceType: webcam; detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_5_5;">
+        arjs="sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 4x4_BCH_13_5_5;">
 
         <!-- Asset management system. -->
         <a-assets>
 
-            <a-asset-item id="robo" src="./assets/models/goblin.gltf" rotation="0 0 0"></a-asset-item>
+            <a-asset-item id="robo" src="./assets/models/robo.gltf" rotation="0 0 0"></a-asset-item>
 
 
         </a-assets>
-
 
 
         <a-marker type="barcode" value="2">
