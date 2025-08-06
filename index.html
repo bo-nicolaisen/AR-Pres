@@ -24,18 +24,20 @@
         <!-- Asset management system. -->
         <a-assets>
 
-            <a-asset-item id="robo" src="./assets/models/robo.gltf" rotation="0 0 0"></a-asset-item>
+            <a-asset-item id="bo" src="./assets/models/robo.gltf" rotation="0 0 0"></a-asset-item>
+
+            <a-asset-item id="kasper" src="./assets/models/robo.gltf" rotation="0 0 0"></a-asset-item>
 
 
         </a-assets>
 
 
-        <a-marker type="barcode" value="">
+        <a-marker type="barcode" value="1">
 
             <a-entity text="value: K-FRY; anchor:center; side: double;" scale="13 13 13"
                 position="5 0.5 1.5"></a-entity>
 
-            <a-entity gltf-model="#robo" scale="0.8 0.8 0.8" position="0 1 0" rotation="0 0 0"
+            <a-entity gltf-model="#kasper" scale="0.8 0.8 0.8" position="0 1 0" rotation="0 0 0"
                 animation="property: rotation; from: 0 180 0; to: 0 -180 0; loop: true; dur: 1000"></a-entity>
         </a-marker>
 
@@ -44,7 +46,7 @@
             <a-entity text="value: Bo Nicolaisen; anchor:center; side: double;" scale="13 13 13"
                 position="5 0.5 1.5"></a-entity>
 
-            <a-entity gltf-model="#robo" scale="0.8 0.8 0.8" position="0 1 0" rotation="0 0 0"
+            <a-entity gltf-model="#bo" scale="0.8 0.8 0.8" position="0 1 0" rotation="0 0 0"
                 animation="property: rotation; from: 0 180 0; to: 0 -180 0; loop: true; dur: 1000"></a-entity>
         </a-marker>
 
